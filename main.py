@@ -11,7 +11,7 @@ from aiohttp import web
 
 # --- КОНФИГУРАЦИЯ ---
 TOKEN = "8592611518:AAHV1NS17uQGR7wAuGFUHJK-HzDnuW-ayjo"
-ADMIN_IDS = [6954868627, 6626929387]
+ADMIN_IDS = [,]
 CHANNEL_ID = -1003346967689  # ТВОЙ ID КАНАЛА
 
 logging.basicConfig(level=logging.INFO)
@@ -118,3 +118,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
